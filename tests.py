@@ -23,4 +23,4 @@ def test_divide():
     try:
         calculator.divide(6, 0)
     except ValueError as e:
-        assert str(e) == "Cannot divide by zero!"
+        assert str(e) == "Cannot divide by zero !!"
